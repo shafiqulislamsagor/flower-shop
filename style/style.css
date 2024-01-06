@@ -66,6 +66,10 @@ main {
     margin-top: 178px;
 }
 
+.feature {
+    margin-bottom: 128px;
+}
+
 .feature-name {
     color: #272727;
     text-align: center;
@@ -126,4 +130,30 @@ main {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+/* local contain related */
+.local-contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.local-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.local-item > img{
+    height: 66px;
+    width: 66px;
+    margin-bottom: 24px;
+}
+.local-item{
+    text-align: center;
+    padding: 86px 0;
 }
