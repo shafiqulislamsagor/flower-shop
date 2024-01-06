@@ -1,6 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+}
+
+/* same design related style */
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border: 0;
+    margin-bottom: 0;
+}
+.mbtn{
+    margin-bottom: 0;
+}
+
+/* header related style */
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    max-width: 531px;
+}
+
+.text-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.text-description {
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.header-img {
+    display: flex;
+    align-items: end;
+}
+
+.header-img>img {
+    max-width: 100%;
 }
