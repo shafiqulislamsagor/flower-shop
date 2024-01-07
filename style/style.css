@@ -30,6 +30,7 @@
     line-height: 30px;
     margin-bottom: 24px;
 }
+
 .feature-name {
     color: #272727;
     text-align: center;
@@ -40,7 +41,8 @@
 
 
 /* header related style */
-header ,.hot-sale {
+header,
+.hot-sale {
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -150,17 +152,20 @@ main {
     font-weight: 600;
     line-height: 35px;
 }
-.local-item > img{
+
+.local-item>img {
     height: 66px;
     width: 66px;
     margin-bottom: 24px;
 }
-.local-item{
+
+.local-item {
     text-align: center;
     padding: 86px 0;
 }
+
 /* hot sale related */
-.hot-sale-contain{
+.hot-sale-contain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,46 +173,56 @@ main {
     gap: 186px;
     padding: 100px 0;
 }
-#hot{
+
+#hot {
     margin-bottom: 128px;
 }
-.hot-sale-item1{
+
+.hot-sale-item1 {
     max-width: 550px;
 }
-.hot-sale-item1 > img{
+
+.hot-sale-item1>img {
     max-width: 100%;
 }
-.hot-sale-name{
+
+.hot-sale-name {
     color: #272727;
     text-align: center;
     font-size: 35px;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.change{
+
+.change {
     color: #E55473;
 }
+
 /* instagram related style */
-.instagram-items1{
+.instagram-items1 {
     text-align: center;
     width: 594px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
-.instagram-items2{
+
+.instagram-items2 {
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
 }
-.img-div > img{
+
+.img-div>img {
     max-width: 100%;
 }
-#instagram{
+
+#instagram {
     margin-bottom: 128px;
 }
+
 /* details related style */
-.details{
+.details {
     background: url(../img/details.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,15 +230,18 @@ main {
     padding: 122px 0;
     border-radius: 8px;
 }
-#text{
+
+#text {
     text-align: center;
 }
-#form{
+
+#form {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
 }
-#form input{
+
+#form input {
     flex-grow: 1;
     margin-right: 16px;
     border: 0;
@@ -231,4 +249,43 @@ main {
     background-color: #FFF;
     outline: none;
     font-size: 18px;
+}
+
+#details {
+    margin-bottom: 128px;
+}
+
+/* footer related style  */
+footer {
+    background: #111010;
+}
+
+.footer-contain {
+    max-width: 648px;
+    margin: 0 auto;
+    padding: 128px 0;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
+.whites{
+    color: #FFF;
 }
