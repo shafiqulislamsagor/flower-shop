@@ -22,6 +22,7 @@
     padding: 20px 40px;
     border: 0;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .text-description {
@@ -201,4 +202,33 @@ main {
 }
 .img-div > img{
     max-width: 100%;
+}
+#instagram{
+    margin-bottom: 128px;
+}
+/* details related style */
+.details{
+    background: url(../img/details.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 122px 0;
+    border-radius: 8px;
+}
+#text{
+    text-align: center;
+}
+#form{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+#form input{
+    flex-grow: 1;
+    margin-right: 16px;
+    border: 0;
+    padding: 22px;
+    background-color: #FFF;
+    outline: none;
+    font-size: 18px;
 }
