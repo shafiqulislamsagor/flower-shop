@@ -29,9 +29,17 @@
     line-height: 30px;
     margin-bottom: 24px;
 }
+.feature-name {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
 
 /* header related style */
-header {
+header ,.hot-sale {
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -68,14 +76,6 @@ main {
 
 .feature {
     margin-bottom: 128px;
-}
-
-.feature-name {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
 }
 
 .feature-title {
@@ -139,6 +139,7 @@ main {
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 128px;
 }
 
 .local-description {
@@ -156,4 +157,29 @@ main {
 .local-item{
     text-align: center;
     padding: 86px 0;
+}
+/* hot sale related */
+.hot-sale-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 186px;
+    padding: 100px 0;
+}
+.hot-sale-item1{
+    max-width: 550px;
+}
+.hot-sale-item1 > img{
+    max-width: 100%;
+}
+.hot-sale-name{
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.change{
+    color: #E55473;
 }
