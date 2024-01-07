@@ -167,6 +167,9 @@ main {
     gap: 186px;
     padding: 100px 0;
 }
+#hot{
+    margin-bottom: 128px;
+}
 .hot-sale-item1{
     max-width: 550px;
 }
@@ -182,4 +185,20 @@ main {
 }
 .change{
     color: #E55473;
+}
+/* instagram related style */
+.instagram-items1{
+    text-align: center;
+    width: 594px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.instagram-items2{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.img-div > img{
+    max-width: 100%;
 }
